@@ -32,6 +32,8 @@
                 placeholder="Descripción de la nota" class="form-control mb-2" value="{{ $nota->descripcion }}">
             <button class="btn btn-primary btn-block" type="submit">Guardar cambios</button>
         </form>
+        <br>
+        <a href="../notas"><button class="btn btn-secondary btn-block">Volver</button></a>
     </div>
 </body>
 
